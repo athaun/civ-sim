@@ -1,5 +1,3 @@
-
-<hr>
 <p>
     <br />
     <img src="https://img.shields.io/badge/Made%20using-Java-red">
@@ -8,17 +6,13 @@
     <img src="https://img.shields.io/badge/Platforms-Windows, Linux-lightgrey">
 </p>
 
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 ...
-
 <br>
 
 ### Built With
 ...
-
-
 ## Prerequisites
 * OpenGL capable graphics card (minimum `core 330`)
 * OpenGL capable graphics driver
