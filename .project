@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>Azurite</name>
+	<name>CivSim</name>
 	<comment>Project civSim created by Buildship.</comment>
 	<projects>
 	</projects>
@@ -22,7 +22,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1626638167296</id>
+			<id>0</id>
 			<name></name>
 			<type>30</type>
 			<matcher>

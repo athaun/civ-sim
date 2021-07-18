@@ -161,7 +161,7 @@ public class ImGuiLayer {
 
         // ------------------------------------------------------------
         // Use freetype instead of stb_truetype to build a fonts texture
-//        ImGuiFreeType.buildFontAtlas(fontAtlas, ImGuiFreeType.RasterizerFlags.LightHinting);
+    //    ImGuiFreeType.buildFontAtlas(fontAtlas, ImGuiFreeType.RasterizerFlags.LightHinting);
         
         
         // Theme Test --------------------------------------------
@@ -280,7 +280,7 @@ public class ImGuiLayer {
 	private void endFrame() {
 		// After Dear ImGui prepared a draw data, we use it in the LWJGL3 renderer.
 		// At that moment ImGui will be rendered to the current OpenGL context.
-//		imGuiGl3.render(ImGui.getDrawData());
+		imGuiGl3.renderDrawData(ImGui.getDrawData());
 	}
 
 	// If you want to clean a room after yourself - do it by yourself
