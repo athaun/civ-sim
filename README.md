@@ -6,13 +6,9 @@
     <img src="https://img.shields.io/badge/Platforms-Windows, Linux-lightgrey">
 </p>
 
-<!-- ABOUT THE PROJECT -->
-## Screenshot
 <img src="./civSim.png">
 <br>
 
-### Built With
-...
 ## Prerequisites
 * OpenGL capable graphics card (minimum `core 330`)
 * OpenGL capable graphics driver
@@ -31,7 +27,7 @@ open Eclipse, and select import project.
 
 ### License
 Copyright (c) 2020 Asher Haun and Ethan Grandin MIT License
-See [LICENSE](https://github.com/athaun/civ-sim/blob/master/LICENSE.md) for more information.
+See [LICENSE](https://github.com/athaun/civ-sim/blob/main/LICENSE) for more information.
 
 ### Contact
 Discord: `Asher#6411`
