@@ -6,9 +6,7 @@ import Gprocessing.ecs.SpriteRenderer;
 import Gprocessing.graphics.Color;
 import Gprocessing.physics.Transform;
 import Gprocessing.physics.Vector2;
-import Gprocessing.util.Engine;
 import Gprocessing.util.Utils;
-import jdk.jshell.execution.Util;
 import org.joml.Random;
 
 public class Cell {
