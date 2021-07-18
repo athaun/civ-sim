@@ -7,8 +7,8 @@
 </p>
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
-...
+## Screenshot
+<img src="./civSim.png">
 <br>
 
 ### Built With
