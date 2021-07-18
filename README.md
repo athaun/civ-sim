@@ -16,14 +16,17 @@
   * FOSS AMD Drivers for linux do work.
 
 Clone:
-`git clone https://github.com/athaun/Gprocessing.git`
-open Eclipse, and select import project.
+`git clone https://github.com/athaun/civ-sim.git`
+* Terminal:
+  cd into `civ-sim`
+  1) Build: `./gradlew fatJar`
+  2) Run: `java -jar ./build/libs/CivSim-1.0-SNAPSHOT-all.jar `
 * Eclipse:
-  Select the run icon > Run As > 1 java application
-
+  idk lol
 * Intellj:
-  you might have to provide a VM option in the build configuration
-  `-Dimgui.library.path=libary/LibImGuiBinaries`
+  Select `File > new project > project from existing sources`
+  Import as a gradle project and wait for it to download dependancies
+  Find `main/java/Gprocessing/civ/CivScene.java`, right click it and run
 
 ### License
 Copyright (c) 2020 Asher Haun and Ethan Grandin MIT License
@@ -33,5 +36,5 @@ See [LICENSE](https://github.com/athaun/civ-sim/blob/main/LICENSE) for more info
 Discord: `Asher#6411`
 
 ### Credits
-* Games With Gabe on Youtube for his [amazing tutorial series](https://www.youtube.com/channel/UCQP4qSCj1eHMHisDDR4iPzw/videos) on building a java game engine!
+* Games With Gabe on Youtube for his [amazing tutorial series](https://www.youtube.com/channel/UCQP4qSCj1eHMHisDDR4iPzw/videos) on building a java game engine.
 * Java ImGui bindings from [SpaiR/imgui-java](https://github.com/SpaiR/imgui-java)
