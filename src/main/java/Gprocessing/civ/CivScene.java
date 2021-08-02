@@ -17,7 +17,7 @@ import static Gprocessing.graphics.Graphics.background;
 public class CivScene extends Scene {
     public static void main (String[] args) {
         // 3840, 2160
-        Engine.init(3840, 2000, "Civ");
+        Engine.init(1920, 1080, "TEST");
     }
 
     public static Cell[][] cells;
@@ -90,9 +90,11 @@ public class CivScene extends Scene {
     }
 
     public void imgui () {
+        ImGui.text("HELLO ETHAN!");
         for (Civ c : civs) {
             c.imgui();
         }
+
 
         ImGui.text("\nHovered Health: " + hoveredCellHealth);
         if (hoveredCellCiv != null) {
